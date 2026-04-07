@@ -33,15 +33,15 @@
     ],
     "maker": [
       {
-        "name": "Brat Generator",
-        "endpoint": "/api/maker/brat",
-        "filename": "brat",
+        "name": "Fake Dana Generator",
+        "endpoint": "/api/maker/fakedana",
+        "filename": "fakedana",
         "method": "GET",
         "params": [
           {
-            "name": "text",
+            "name": "nominal",
             "required": true,
-            "description": "Text"
+            "description": "nominal"
           }
         ]
       }
