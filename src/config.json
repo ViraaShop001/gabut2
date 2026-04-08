@@ -58,12 +58,12 @@
           },
           {
             "name": "duration",
-            "required": true,
+            "required": false,
             "description": "Durasi panggilan (contoh: 13:46)"
           },
           {
             "name": "avatar",
-            "required": true,
+            "required": false,
             "description": "URL foto profil"
           }
         ]
