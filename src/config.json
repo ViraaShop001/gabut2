@@ -45,6 +45,29 @@
           }
         ]
       }
+      {
+  "name": "Fake Call WhatsApp Generator",
+  "endpoint": "/api/maker/fakecall",
+  "filename": "fakecall",
+  "method": "GET",
+  "params": [
+    {
+      "name": "name",
+      "required": true,
+      "description": "Nama kontak"
+    },
+    {
+      "name": "duration",
+      "required": true,
+      "description": "Durasi panggilan (contoh: 13:46)"
+    },
+    {
+      "name": "avatar",
+      "required": true,
+      "description": "URL foto profil"
+    }
+  ]
+      }
     ],
     "random": [
       {
